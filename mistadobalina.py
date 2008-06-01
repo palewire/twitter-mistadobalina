@@ -44,14 +44,14 @@ from SOAPpy import WSDL
 # I've excluded a couple tracks. Here's why: 
 # * "Interlude" is too short to include, I figure. 
 # * There weren't good lyrics in the API for "The Wacky World of Public Transit"
-I_With_My_Brother_George_Was_Here = ['Dr._Bombay', 'What_Is_A_Booty', 'Ahonetwo,_Ahonetwo', 'Mistadobalina', 
+I_Wish_My_Brother_George_Was_Here = ['Dr._Bombay', 'What_Is_A_Booty', 'Ahonetwo,_Ahonetwo', 'Mistadobalina', 
                                      'Sleepin\'_On_My_Couch', 'Sunny_Meadowz', 'Eye Examination', 
                                      'Pissin\'_On_Your_Steps', 'Dark Skin Girls', 'Money_For_Sex', 
                                      'Hoodz_Come_In_Dozens', 'Same_Ol\'_Thing', 'Ya_Li\'l_Crumbsnatchers']
 
 # Selecting a random song from the album
 random_song = random.randrange(len(I_With_My_Brother_George_Was_Here))
-song = I_With_My_Brother_George_Was_Here[random_song]
+song = I_Wish_My_Brother_George_Was_Here[random_song]
 
 # Logging into the LyricWiki API and downloading our randomly selected song
 wsdlFile = ('http://lyricwiki.org/server.php?wsdl')
