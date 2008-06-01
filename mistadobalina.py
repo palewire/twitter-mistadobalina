@@ -61,7 +61,7 @@ title = song[1]
 lyrics = song[2]
 lines = string.split(lyrics, '\n')
 
-def Filter(text):
+def Filter(line):
     """Flagging any line that contains one of the words we want to omit."""
     
     # The words we want to exclude.
