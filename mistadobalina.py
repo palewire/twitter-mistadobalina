@@ -50,7 +50,7 @@ I_Wish_My_Brother_George_Was_Here = ['Dr._Bombay', 'What_Is_A_Booty', 'Ahonetwo,
                                      'Hoodz_Come_In_Dozens', 'Same_Ol\'_Thing', 'Ya_Li\'l_Crumbsnatchers']
 
 # Selecting a random song from the album
-random_song = random.randrange(len(I_With_My_Brother_George_Was_Here))
+random_song = random.randrange(len(I_Wish_My_Brother_George_Was_Here))
 song = I_Wish_My_Brother_George_Was_Here[random_song]
 
 # Logging into the LyricWiki API and downloading our randomly selected song
@@ -98,7 +98,7 @@ except:
 # This could probably use some test that makes sure the quote isn't over Twitters 140 character limit.
 # But I'm too lazy to do that tonight. 
 un = 'mistadobalina'
-pw = '#####'
+pw = '##'
 api = twitter.Api(username=un, password=pw)
 status = api.PostUpdate(quote)
 
