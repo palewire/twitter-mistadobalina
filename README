@@ -1,0 +1,25 @@
+A script that selects two random lines from Del Tha Funkee Homosapien's first album,
+I Wish My Brother George Was Here, and posts them to the @mistadoblina Twitter account.
+
+http://twitter.com/mistadobalina
+
+Lyrics data provied by LyricWiki. Their API is documented here: 
+* http://lyricwiki.org/LyricWiki:SOAP
+
+Dependencies: PyXML, fpconst, SOAPpy, python-twitter, simplejson.
+
+For more information on SOAPpy or python-twitter refer to:
+* http://www.diveintopython.org/soap_web_services/
+* http://code.google.com/p/python-twitter/
+
+The MIT License
+ 
+Copyright (c) 2008 Ben Welsh
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
